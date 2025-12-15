@@ -28,7 +28,7 @@ datasets/VOCdevkit
 ```
 
 ## Training
-Download the pretrained backbone here: [Download Link]() and place it in `model_data/`.
+Download the pretrained backbone here: [Download Link](https://pan.baidu.com/s/1Ve4adDt_KtTiirsGWSTBOg?pwd=yeev ) and place it in `model_data/`.
 
 To train the model:
 
@@ -40,7 +40,7 @@ python train.py
 
 
 ## Testing
-Download the pretrained checkpoint here: [Download Link]() and place it in `checkpoints/`.
+Download the pretrained checkpoint here: [Download Link](https://pan.baidu.com/s/1-xl9sptSnGf5ECLlcWtnSw?pwd=jijh ) and place it in `checkpoints/`.
 
 To evaluate the model:
 
