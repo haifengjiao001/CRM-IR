@@ -7,6 +7,10 @@ Although RAW images offer advantages over sRGB by avoiding ISP-induced distortio
 - Python >= 3.10
 - PyTorch >= 2.1
 
+```bash
+pip install -r requirements.txt
+pip install -e .
+```
 
 ## Data Preparation
 Dataset link: 
@@ -15,22 +19,17 @@ Dataset link:
 
 - [RID Dataset](https://github.com/ying-fu/LODDataset)
 
-Please organize your datasets into the following directory structure:
+Please organize the datasets into the following directory structure:
 ```bash
-data/
-├── train/
-│   ├── denoise/    
-│   ├── dehazy/     
-│   ├── derainL/    
-│   └── derainH/    
-└── test/
-    ├── denoise/    
-    ├── dehazy/   
-    ├── derainL/   
-    └── derainH/    
+datasets/VOCdevkit
+├── LOD/ 
+└── RID/
+   
 ```
 
 ## Training
+Download the pretrained backbone here: [Download Link]() and place it in `model_data/`.
+
 To train the model:
 
 ```bash
@@ -46,7 +45,7 @@ Download the pretrained checkpoint here: [Download Link]() and place it in `chec
 To evaluate the model:
 
 ```bash
-python test.py
+python get_map.py
 
 ```
 
