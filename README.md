@@ -17,7 +17,7 @@ Dataset link:
 
 - [LOD Dataset](https://github.com/ying-fu/LODDataset)
 
-- [RID Dataset](https://github.com/ying-fu/LODDataset)
+- [RID Dataset](https://pan.baidu.com/s/1Pw1s4A6swIC9O-2owvVWSw?pwd=f6q8 )
 
 Please organize the datasets into the following directory structure:
 ```bash
